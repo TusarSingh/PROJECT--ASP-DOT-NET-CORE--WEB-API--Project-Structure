@@ -6,4 +6,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Radhey.DAL\Radhey.DAL.csproj" />
+    <ProjectReference Include="..\Radhey.Dapper\Radhey.Dapper.csproj" />
+    <ProjectReference Include="..\Radhey.Model\Radhey.Model.csproj" />
+    <ProjectReference Include="..\Radhey.Utility\Radhey.Utility.csproj" />
+  </ItemGroup>
+
 </Project>
